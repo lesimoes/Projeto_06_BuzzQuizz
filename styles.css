@@ -66,6 +66,34 @@ main {
     width: 136px;
 }
 
+.allQuizzes ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.allQuizzes img {
+    min-width: 340px;
+    height: 181px;
+    border-radius: 5px;
+    -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1.0), transparent)
+    
+    
+}
+
+.allQuizzes li {
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 64.58%)
+}
+
+.allQuizzes p {
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 16px;
+    left: 8px;
+}
+
 .allQuizzes span {
     font-weight: bold;
 }
