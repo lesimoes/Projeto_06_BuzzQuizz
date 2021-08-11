@@ -47,7 +47,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 77px;
+    margin-bottom: 0 18px 77px 18px;
 }
 
 .emptyUserQuizzes span {
@@ -66,6 +66,10 @@ main {
     width: 136px;
 }
 
+.allQuizzes {
+    margin: 18px;
+}
+
 .allQuizzes ul {
     display: flex;
     flex-wrap: wrap;
@@ -76,13 +80,10 @@ main {
     height: 181px;
     border-radius: 5px;
     -webkit-mask-image: linear-gradient(rgba(0, 0, 0, 1.0), transparent)
-    
-    
 }
 
 .allQuizzes li {
     position: relative;
-    margin: 5px;
     border-radius: 5px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, black 64.58%)
 }
