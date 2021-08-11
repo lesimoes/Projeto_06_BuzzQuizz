@@ -1,4 +1,5 @@
-let quizzes = [];
+let allQuizzes = [];
+let userQuizzes = [];
 
 function getAllQuizzes () {
     const promise = axios.get('https://mock-api.bootcamp.respondeai.com.br/api/v3/buzzquizz/quizzes');
@@ -7,7 +8,8 @@ function getAllQuizzes () {
 }
 
 function loadAllQuizzes (response) {
-    console.log(response.data);
+    allQuizzes = response.data;
+    console.log(allQuizzes);
 }
 
 getAllQuizzes ();
