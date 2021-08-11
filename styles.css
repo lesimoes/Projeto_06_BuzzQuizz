@@ -33,6 +33,34 @@ main {
     margin: 146px auto 0 auto;
 }
 
+span {
+    font-weight: bold;
+}
+
+h1 {
+    color: #B9B9B9;
+    margin: 33px;
+}
+
+input {
+    margin: 4px 0;
+    width: 341px;
+    height: 46px;
+    border-radius: 5px;
+    padding-left: 8px;
+    border: 1px solid #D1D1D1;
+}
+
+button{
+    border-radius: 10px;
+    width: 300px;
+    height: 40px;
+    background-color: #EC362D;
+    color: #FFFFFF;
+    margin: 50px 0;
+    border: 0;
+}
+
 .userQuizzes {
     margin: 0 auto;
     width: 1050px;
@@ -43,10 +71,6 @@ main {
     flex-direction: column;
 }
 
-.filledUserQuizzes span {
-    font-weight: bold;
-}
-
 .emptyUserQuizzes {
     border: 2px dashed #D4D4D4;
     border-radius: 5px;
@@ -54,11 +78,6 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.emptyUserQuizzes span {
-    color: #B9B9B9;
-    margin: 33px;
 }
 
 .emptyUserQuizzes button {
@@ -114,12 +133,37 @@ main {
 }
 
 .allQuizzes span {
-    font-weight: bold;
     margin-left: 5px;
 }
 
 .hide-class {
     display: none;
+}
+
+.createQuizzes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 195px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createInput {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    width: 375px;
+    padding: 4px 0;
 }
 
 @media (max-width: 1110px) {
