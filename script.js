@@ -24,21 +24,6 @@ function showUserQuizzes () {
         <li>
             <img src=${allQuizzes[i].image}>
             <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
         </li>`
     }
 }
@@ -49,61 +34,6 @@ function showAllQuizzes () {
 
     for (let i = 0; i < allQuizzes.length; i++) {
         ulQuizzes.innerHTML += `
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
-        <li>
-            <img src=${allQuizzes[i].image}>
-            <p class="quizzTitle">${allQuizzes[i].title}</p>
-        </li>
-
         <li>
             <img src=${allQuizzes[i].image}>
             <p class="quizzTitle">${allQuizzes[i].title}</p>

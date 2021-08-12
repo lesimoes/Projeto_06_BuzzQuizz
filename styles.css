@@ -31,6 +31,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 146px auto 0 auto;
+    background-color: rebeccapurple;
 }
 
 span {
@@ -74,7 +75,7 @@ button {
 .filledUserQuizzes ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 10px;
 }
 
@@ -148,7 +149,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     margin-top: 12px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .allQuizzes img {
@@ -178,6 +179,24 @@ button {
 
 .hide-class {
     display: none;
+}
+
+.quizzPage {
+    height: 300px;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    top: 69px;
+
+}
+
+.quizzCover img {
+    width: 100%;
+    height: 227px;
+    position: absolute;
+    top: 0px;
+    margin-bottom: 69px;
+    filter: brightness(60%);
 }
 
 .basic{
@@ -321,7 +340,7 @@ button {
 @media (max-width: 1110px) {
 
     header {
-        width: 100vw;
+        width: 100%;
     }
 
     main {
