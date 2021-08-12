@@ -439,4 +439,44 @@ button {
         align-items: center;
         justify-content: center;
     }
+
+    .quizzPage {
+        width: 100%;
+    }
+
+    .quizzCover img {
+        height: 142px;       
+    }
+
+    .quizzQuestion {
+        margin: 24px auto;
+        width: 100%;
+    }
+
+    .questionText {
+        margin: 18px auto 13px auto;
+        background-color: rebeccapurple;
+        width: 340px;
+        height: 89px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .possibleAnswers {
+        width: 340px;
+    }
+
+    .possibleAnswers img {
+        width: 163px;
+        height: 113px;
+    }
+
+    .possibleAnswers p {
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
 }
