@@ -12,6 +12,35 @@ function loadAllQuizzes (response) {
     console.log(allQuizzes);
 
     showAllQuizzes();
+    showUserQuizzes();
+}
+
+function showUserQuizzes () {
+    const ulQuizzes = document.querySelector('.filledUserQuizzes ul');
+    ulQuizzes.innerHTML = "";
+
+    for (let i = 0; i < allQuizzes.length; i++) {
+        ulQuizzes.innerHTML +=  `
+        <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>
+
+        <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>
+
+        <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>
+
+        <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>`
+    }
 }
 
 function showAllQuizzes () {
@@ -26,27 +55,28 @@ function showAllQuizzes () {
         </li>
 
         <li>
-        <img src=${allQuizzes[i].image}>
-        <p class="quizzTitle">${allQuizzes[i].title}</p>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
         </li>
 
         <li>
             <img src=${allQuizzes[i].image}>
             <p class="quizzTitle">${allQuizzes[i].title}</p>
         </li>
+
         <li>
             <img src=${allQuizzes[i].image}>
             <p class="quizzTitle">${allQuizzes[i].title}</p>
         </li>
 
         <li>
-        <img src=${allQuizzes[i].image}>
-        <p class="quizzTitle">${allQuizzes[i].title}</p>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
         </li>
 
         <li>
-        <img src=${allQuizzes[i].image}>
-        <p class="quizzTitle">${allQuizzes[i].title}</p>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
         </li>
 
         <li>
@@ -78,7 +108,6 @@ function showAllQuizzes () {
             <img src=${allQuizzes[i].image}>
             <p class="quizzTitle">${allQuizzes[i].title}</p>
         </li>`
-                
     }
 }
 
