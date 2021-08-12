@@ -31,7 +31,6 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 146px auto 0 auto;
-    background-color: rebeccapurple;
 }
 
 span {
@@ -41,6 +40,7 @@ span {
 h1 {
     color: #B9B9B9;
     margin: 33px;
+    text-align: center;
 }
 
 input {
@@ -187,16 +187,26 @@ button {
     background-color: blue;
     position: absolute;
     top: 69px;
+}
 
+.quizzCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .quizzCover img {
     width: 100%;
     height: 227px;
-    position: absolute;
-    top: 0px;
-    margin-bottom: 69px;
     filter: brightness(60%);
+    position: relative;
+}
+
+.quizzCover p {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 39px;
+    text-align: center;
 }
 
 .basic{
