@@ -85,85 +85,150 @@
             </section>
 
             <section class="createQuestions">
-                <div class="title">
-                    <span>Crie suas perguntas</span>
-                </div>
-
-                <div class="questioning">
-                    
-                    <div class="questions">
-
-                        <div class="question">
-                            <div class="subtitle">
-                                <span>Pergunta 1</span>
-                            </div>
-                            <ul>
-                                <li>
-                                    <input type="text" minlength="20" 
-                                    spellcheck="true" placeholder="Texto da pergunta">
-                                </li>
-        
-                                <li>
-                                    <input type="text" placeholder="Cor de fundo da pergunta">
-                                </li>
-                            </ul>
-                        </div>
+                <div class="hide-class">
+                    <div class="title">
+                        <span>Crie suas perguntas</span>
+                    </div>
+    
+                    <div class="questioning">
                         
-                        <div class="correctAnswer">
-                            <div class="subtitle">
-                                <span>Resposta correta</span>
+                        <div class="questions">
+    
+                            <div class="question">
+                                <div class="subtitle">
+                                    <span>Pergunta 1</span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <input type="text" minlength="20" 
+                                        spellcheck="true" placeholder="Texto da pergunta">
+                                    </li>
+            
+                                    <li>
+                                        <input type="text" placeholder="Cor de fundo da pergunta">
+                                    </li>
+                                </ul>
                             </div>
-                            <ul>
-                                <li>
-                                    <input type="text"  spellcheck="true" 
-                                    placeholder="Resposta correta">
-                                </li>
+                            
+                            <div class="correctAnswer">
+                                <div class="subtitle">
+                                    <span>Resposta correta</span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <input type="text"  spellcheck="true" 
+                                        placeholder="Resposta correta">
+                                    </li>
+            
+                                    <li>
+                                        <input type="text" placeholder="URL da imagem">
+                                    </li>
+                                </ul>
+                            </div>
         
-                                <li>
-                                    <input type="text" placeholder="URL da imagem">
-                                </li>
-                            </ul>
+                            <div class="wrongAnswer">
+                                <div class="subtitle">
+                                    <span>Respostas incorretas</span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <input type="text"  spellcheck="true" 
+                                        placeholder="Resposta correta 1">
+                                    </li>
+            
+                                    <li>
+                                        <input type="text" placeholder="URL da imagem 1">
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
     
-                        <div class="wrongAnswer">
+                        <div class="questionWaiting">
                             <div class="subtitle">
-                                <span>Respostas incorretas</span>
+                                <span>Pergunta 2</span>
                             </div>
-                            <ul>
-                                <li>
-                                    <input type="text"  spellcheck="true" 
-                                    placeholder="Resposta correta 1">
-                                </li>
-        
-                                <li>
-                                    <input type="text" placeholder="URL da imagem 1">
-                                </li>
-                            </ul>
+                            <div class="icon">
+                                <ion-icon name="create-outline"></ion-icon>
+                            </div>
+                        </div> 
+    
+                        <div class="questionWaiting">
+                            <div class="subtitle">
+                                <span>Pergunta 3</span>
+                            </div>
+                            <div class="icon">
+                                <ion-icon name="create-outline"></ion-icon>
+                            </div>
+                        </div> 
+    
+                        <button>Prosseguir pra criar níveis</button>
+    
+                    </div>
+    
+                </div>
+                
+            </section>
+
+            <section class="createLevels">
+                <div class="title">
+                    <span>Agora, decida os níveis!</span>
+                </div>  
+                
+                <div class="creatingLevels">
+
+                    <div class="level">
+                        <div class="subtitle">
+                            <span>Nível 1</span>
                         </div>
+
+                        <ul>
+                            <li>
+                                <input type="text" spellcheck="true" minlength="10"
+                                placeholder="Título do nível">
+                            </li>
+
+                            <li>
+                                <input type="number" 
+                                placeholder="% de acerto mínima">
+                            </li>
+
+                            <li>
+                                <input type="text" 
+                                placeholder="URL da imagem do nível">
+                            </li>
+
+                            <li>
+                                <input class="description" type="text" spellcheck="true" minlength="30"
+                                placeholder="Descrição do nível">
+                            </li>
+                        </ul>
                     </div>
 
-                    <div class="questionWaiting">
+                    <div class="levelWaiting">
                         <div class="subtitle">
-                            <span>Pergunta 2</span>
+                            <span>Nível 2</span>
                         </div>
                         <div class="icon">
                             <ion-icon name="create-outline"></ion-icon>
                         </div>
                     </div> 
 
-                    <div class="questionWaiting">
+                    <div class="levelWaiting">
                         <div class="subtitle">
-                            <span>Pergunta 3</span>
+                            <span>Nível 3</span>
                         </div>
                         <div class="icon">
                             <ion-icon name="create-outline"></ion-icon>
                         </div>
                     </div> 
+
+                    <button>Finalizar Quizz</button>
 
                 </div>
+            
+            </seaction>   
 
 
-            </section>
     
             <section class="allQuizzes">
 

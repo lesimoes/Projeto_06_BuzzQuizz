@@ -188,7 +188,7 @@ button {
 }
 
 .title{
-    width: 195px;
+    width: 300px;
     height: 23px;
     display: flex;
     justify-content: center;
@@ -217,6 +217,13 @@ button {
     align-items: center;
 }
 
+.questioning {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .questions {
     display: flex;
     flex-direction: column;
@@ -233,9 +240,47 @@ button {
     justify-content: space-between;
     align-items: center;
     background-color: #FFFFFF;
+    width: 600px;
     padding: 4px 10px;
     margin-bottom: 15px;
 }
+
+.createLevels {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creatingLevels {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    background-color: #FFFFFF;
+}
+
+.levelWaiting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 600px;
+    padding: 4px 10px;
+    margin-bottom: 15px;
+}
+
+
 
 @media (max-width: 1110px) {
 
