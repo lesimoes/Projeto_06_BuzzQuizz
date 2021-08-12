@@ -182,9 +182,7 @@ button {
 }
 
 .quizzPage {
-    height: 300px;
     width: 100%;
-    background-color: blue;
     position: absolute;
     top: 69px;
 }
@@ -207,6 +205,48 @@ button {
     color: #FFFFFF;
     font-size: 39px;
     text-align: center;
+}
+
+.quizzQuestion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 759px;
+    background-color: #FFFFFF;
+    margin: 42px auto;
+}
+
+.questionText {
+    margin: 27px auto 20px auto;
+    background-color: rebeccapurple;
+    width: 688px;
+    height: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.possibleAnswers {
+    width: 688px;
+    margin: 0 auto;
+}
+
+.possibleAnswers ul {
+    display: flex;    
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.possibleAnswers img {
+    width: 330px;
+    height: 175px;
+}
+
+.possibleAnswers p {
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 16px;
 }
 
 .basic{
