@@ -24,49 +24,61 @@ function showAllQuizzes () {
             <img src=${allQuizzes[i].image}>
             <p class="quizzTitle">${allQuizzes[i].title}</p>
         </li>
+
         <li>
         <img src=${allQuizzes[i].image}>
         <p class="quizzTitle">${allQuizzes[i].title}</p>
-    </li>
-    <li>
-    <img src=${allQuizzes[i].image}>
-    <p class="quizzTitle">${allQuizzes[i].title}</p>
-</li><li>
-<img src=${allQuizzes[i].image}>
-<p class="quizzTitle">${allQuizzes[i].title}</p>
-</li>
-<li>
-<img src=${allQuizzes[i].image}>
-<p class="quizzTitle">${allQuizzes[i].title}</p>
-</li>
-<li>
-<img src=${allQuizzes[i].image}>
-<p class="quizzTitle">${allQuizzes[i].title}</p>
-</li>
-<li>
+        </li>
+
+        <li>
             <img src=${allQuizzes[i].image}>
             <p class="quizzTitle">${allQuizzes[i].title}</p>
         </li>
         <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>
+
+        <li>
         <img src=${allQuizzes[i].image}>
         <p class="quizzTitle">${allQuizzes[i].title}</p>
-    </li>
-    <li>
-    <img src=${allQuizzes[i].image}>
-    <p class="quizzTitle">${allQuizzes[i].title}</p>
-</li><li>
-<img src=${allQuizzes[i].image}>
-<p class="quizzTitle">${allQuizzes[i].title}</p>
-</li>
-<li>
-<img src=${allQuizzes[i].image}>
-<p class="quizzTitle">${allQuizzes[i].title}</p>
-</li>
-<li>
-<img src=${allQuizzes[i].image}>
-<p class="quizzTitle">${allQuizzes[i].title}</p>
-</li>`
-        
+        </li>
+
+        <li>
+        <img src=${allQuizzes[i].image}>
+        <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>
+
+        <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>
+
+        <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>
+
+        <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>
+
+        <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>
+
+        <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>
+
+        <li>
+            <img src=${allQuizzes[i].image}>
+            <p class="quizzTitle">${allQuizzes[i].title}</p>
+        </li>`
+                
     }
 }
 

@@ -27,7 +27,7 @@
 
             <section class="userQuizzes">
 
-                <div class="emptyUserQuizzes">
+                <div class="emptyUserQuizzes hide-class">
                     <h1>Você não criou nenhum quizz ainda :(</h1>
                     <button>Criar Quizz</button>
                 </div>
@@ -44,33 +44,129 @@
     
             </section>
 
-            <section class="createQuizzes">
+            <section class="createQuizzes hide-class">
+                <div class="basic">
+
+                    <div class="title">
+                        <span>Crie seu Quizz </span>
+                    </div>
+    
+                    <div class="createInput">
+    
+                        <ul>
+                            <li>
+                                <input type="text" minlength="20" maxlength="65" 
+                                spellcheck="true" placeholder="Título do seu quizz">
+                            </li>
+    
+                            <li>
+                                <input type="text" placeholder="URL da imagem do seu quizz">
+                            </li>
+    
+                            <li>
+                                <input type="number" placeholder="Quantidade de perguntas do quizz"
+                                id="opções" name="opções" max="3" min="1">
+                            </li>
+    
+                            <li>
+                                <input type="number" placeholder="Quantidade de níveis do quizz"
+                                max="3" min="1">
+                            </li>
+                        </ul>
+                        
+                    </div>
+                   
+                    <button>Prosseguir pra criar perguntas</button>
+
+                </div>
+                
+            </section>
+
+            <section class="createQuestions">
                 <div class="title">
-                    <span>Crie seu Quizz </span>
+                    <span>Crie suas perguntas</span>
                 </div>
 
-                <div class="createInput">
+                <div class="questioning">
                     
-                    <input type="text" minlength="20" maxlength="65" 
-                    spellcheck="true" placeholder="Título do seu quizz">
+                    <div class="questions">
 
-                    <input type="text" placeholder="URL da imagem do seu quizz">
+                        <div class="question">
+                            <div class="subtitle">
+                                <span>Pergunta 1</span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <input type="text" minlength="20" 
+                                    spellcheck="true" placeholder="Texto da pergunta">
+                                </li>
+        
+                                <li>
+                                    <input type="text" placeholder="Cor de fundo da pergunta">
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="correctAnswer">
+                            <div class="subtitle">
+                                <span>Resposta correta</span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <input type="text"  spellcheck="true" 
+                                    placeholder="Resposta correta">
+                                </li>
+        
+                                <li>
+                                    <input type="text" placeholder="URL da imagem">
+                                </li>
+                            </ul>
+                        </div>
+    
+                        <div class="wrongAnswer">
+                            <div class="subtitle">
+                                <span>Respostas incorretas</span>
+                            </div>
+                            <ul>
+                                <li>
+                                    <input type="text"  spellcheck="true" 
+                                    placeholder="Resposta correta 1">
+                                </li>
+        
+                                <li>
+                                    <input type="text" placeholder="URL da imagem 1">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-                    <input type="number" placeholder="Quantidade de perguntas do quizz"
-                    id="opções" name="opções" min="3" >
+                    <div class="questionWaiting">
+                        <div class="subtitle">
+                            <span>Pergunta 2</span>
+                        </div>
+                        <div class="icon">
+                            <ion-icon name="create-outline"></ion-icon>
+                        </div>
+                    </div> 
 
-                    <input type="number" placeholder="Quantidade de níveis do quizz"
-                    min="3">
+                    <div class="questionWaiting">
+                        <div class="subtitle">
+                            <span>Pergunta 3</span>
+                        </div>
+                        <div class="icon">
+                            <ion-icon name="create-outline"></ion-icon>
+                        </div>
+                    </div> 
 
                 </div>
-               
-                <button>Prosseguir pra criar perguntas</button>
 
             </section>
     
             <section class="allQuizzes">
 
-                <span>Todos os Quizzes</span>
+                <div class="nome">
+                    <span>Todos os Quizzes</span>
+                </div>
     
                 <ul>
     
